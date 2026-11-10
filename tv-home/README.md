@@ -36,6 +36,5 @@ signed with the same key as LayoverTV (see "Signing key" in `../phone/LAYOVER.md
 Turn on Developer options > ADB debugging on the TV first. The script records the TV's state first
 (`install-state-*.txt` next to it, gitignored) and rolls Home back if the takeover does not stick.
 `install-on-sony.sh` is written for Sony's stock Android TV launcher (`com.google.android.tvlauncher`); on
-another model set `DEVICE=` to its `ro.product.device`. For other brands or Google TV, use upstream's
-`build-and-install.sh` / `build-and-install.ps1` (they take your stock launcher package) and install
-LayoverTV first with `adb install`.
+another Sony model set `DEVICE=` to its `ro.product.device`. For other TVs, see the manual steps in
+`../SETUP.md` (step 7).

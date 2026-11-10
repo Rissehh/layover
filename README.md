@@ -49,6 +49,11 @@ upstream code is marked with a `// LAYOVER` comment, so `grep -rn "LAYOVER"` sho
 
 ## Build
 
+**New here? Follow [SETUP.md](SETUP.md)**: it goes from nothing to watching on the phone, TV and PC, step by
+step, including addons, signing and installing. This section is the short version for developers.
+
+On Windows, `setup-local.ps1` makes your signing key and writes every `local.properties` for you.
+
 Every project reads its private settings from a `local.properties` file in its folder. It is gitignored and
 must never be committed. A typical one:
 
@@ -84,6 +89,8 @@ Run one Gradle build at a time; they are heavy. Layover's tests:
 
 ## Install
 
+Full steps are in [SETUP.md](SETUP.md). In short:
+
 - **Phone:** copy the APK to the phone (Drive, USB, or a local web server, see `phone/LAYOVER.md`), open it,
   allow installs from that app, install. First run: **Continue Without Account**, make a profile, add your
   addons.
@@ -91,7 +98,7 @@ Run one Gradle build at a time; they are heavy. Layover's tests:
   `adb install -r <apk>`. Install LayoverTV **before** tv-home. On a Sony Bravia,
   `TV_HOST=<tv-ip> tv-home/install-on-sony.sh` does it all (both apps, your addons from
   `~/.layover/addons.txt`, optional Stremio history import, makes tv-home the Home screen) and
-  `... restore` undoes it. Other TVs: see `tv-home/README.md`.
+  `... restore` undoes it. Other TVs: SETUP.md step 7.
 - **PC:** copy the `Layover` folder somewhere permanent and run `Layover.exe`.
 
 ## What it isn't

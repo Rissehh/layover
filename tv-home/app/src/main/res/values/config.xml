@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  Launcher configuration. Edit this file, then run launcher/build-and-install.sh.
+  Launcher configuration. Edit this file, then rebuild and reinstall (SETUP.md, step 7).
   Or leave it and push a theme instead: tools/theme.sh themes/<name> puts a config.json (same keys, see
   themes/README.md) and an optional wallpaper on the TV, and the launcher overlays it at start.
   Package names: on the TV run `pm list packages` (tools/tv.py 'pm list packages').
