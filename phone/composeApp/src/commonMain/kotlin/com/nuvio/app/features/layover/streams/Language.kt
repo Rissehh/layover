@@ -18,7 +18,7 @@ private val foreignTags = langToken(
 /** Tags that say English audio is in the file (on its own or among several tracks). */
 private val englishTags = langToken("eng|english|multi|dual|dual[ .-]?audio|multi[ .-]?audio")
 
-// Flags some addons put in the description (Torrentio, Comet, AIOStreams).
+// Flags some addons put in the description.
 private val foreignFlags = listOf(
     "🇫🇷", // FR
     "🇮🇹", // IT

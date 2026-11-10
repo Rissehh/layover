@@ -22,9 +22,9 @@ fun Stream.isFallbackPlayable(): Boolean = fallbackUrl() != null
 enum class CacheState { Cached, Unknown, Uncached }
 
 /**
- * How debrid addons label a result that is (or isn't) already on the debrid service. Torrentio:
- * "[RD+]" / "[RD download]"; Comet: "[RD⚡]" / "[RD⬇️]"; MediaFusion and AIOStreams:
- * "⚡" / "⏳". Data, not code: add a marker here when an addon labels it differently.
+ * How debrid addons label a result that is (or isn't) already on the debrid service: "[RD+]" /
+ * "[RD download]", "[RD⚡]" / "[RD⬇️]", or plain "⚡" / "⏳". Data, not code: add a marker here when an
+ * addon labels it differently.
  */
 private const val DEBRID_SERVICES = "RD|AD|PM|TB|DL|ED|OC|PKP|EN|ST"
 internal val CACHED_MARKERS: List<Regex> = listOf(

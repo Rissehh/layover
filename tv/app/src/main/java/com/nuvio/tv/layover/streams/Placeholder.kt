@@ -2,7 +2,7 @@ package com.nuvio.tv.layover.streams
 
 /**
  * Debrid addons answer a pick whose file isn't ready with a short clip instead of the file
- * (ElfHosted's "Still downloading" slate: 2 minutes, about 5 MB), while the stream still claims the
+ * (a "Still downloading" slate: 2 minutes, about 5 MB), while the stream still claims the
  * real file's size, often several GB. A playback or a file that small against a claim that big is
  * that clip, not the title. Streams that claim no size (or a small one) are never judged by this,
  * except samples ([isSample]): a short playback of a stream named as a sample is that sample.
