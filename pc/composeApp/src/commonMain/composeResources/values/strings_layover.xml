@@ -1,0 +1,7 @@
+<resources>
+    <string name="compose_settings_page_layover">Layover</string>
+    <string name="compose_settings_page_layover_stream_stats">Stream stats</string>
+    <string name="compose_settings_root_layover_description">Downloads, stream fallback and history</string>
+    <!-- Bottom bar label for the Downloads tab: "Downloads" ellipsizes in a five-tab floating bar at 1080 px. -->
+    <string name="compose_nav_layover_downloads">Offline</string>
+</resources>

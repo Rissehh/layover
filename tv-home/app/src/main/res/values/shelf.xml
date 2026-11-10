@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Layover shelf (HomeShelf): LayoverTV's Continue watching and Picked for you above the dock. -->
+    <bool name="home_shelf">true</bool>
+    <integer name="shelf_card_width">146</integer>
+    <item name="shelf_image_url" type="id" />
+    <string name="shelf_continue">Continue watching</string>
+    <string name="shelf_picks">Picked for you</string>
+</resources>

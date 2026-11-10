@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LayoverTV's own strings (English only, so not translatable). -->
+<resources>
+    <string name="layover_trying_another_source" translatable="false">Trying another source</string>
+    <string name="layover_next_source" translatable="false">Next source</string>
+    <string name="layover_setting_fallback" translatable="false">Automatic source fallback</string>
+    <string name="layover_setting_fallback_sub" translatable="false">If a source fails, shows no picture or keeps buffering, try the next best one. Also picks the best source when auto-play plays the first stream.</string>
+    <string name="layover_setting_first_frame_timeout" translatable="false">First picture timeout</string>
+    <string name="layover_setting_first_frame_timeout_sub" translatable="false">A source that shows no picture this long after the player starts it counts as failed.</string>
+</resources>

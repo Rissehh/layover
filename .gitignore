@@ -1,0 +1,22 @@
+# Private: never commit
+local.properties
+*.jks
+*.keystore
+addons.txt
+stremio_auth.txt
+.env
+install-state-*.txt
+
+# Build output
+/*/build/
+/*/*/build/
+/*/vendor/*/build/
+/*/vendor/*/*/build/
+.gradle/
+.kotlin/
+*.apk
+*.aab
+
+# PC video-player libraries fetched by pc/scripts/fetch-desktop-natives.*
+pc/composeApp/src/desktopMain/native/windows/runtime/libmpv-2.dll
+pc/composeApp/src/desktopMain/native/macos/runtime/**/*.dylib
